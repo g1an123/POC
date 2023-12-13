@@ -1,6 +1,6 @@
-# POC
 product： Stupid Simple CMS ( Blogger )
 version：Version 1.1.7 - Version 1.2.3
+Download link： https://github.com/codelyfe/Stupid-Simple-CMS/releases/tag/v1.2.3
 ## POC:
 ```shell
 POST http://localhost/terminal/handle-command.php HTTP/1.1
@@ -58,4 +58,10 @@ So you only need to send a POST request to handle-command.php to RCE.
 Local authentication（本地验证）：
 ![](https://cdn.jsdelivr.net/gh/g1an123/blogimage@main/202312091131290.png)
 Official website demonstration address verification（demo验证）：
+The demo page is already being patched and the author says it will be removed before the next version is released.
 ![](https://cdn.jsdelivr.net/gh/g1an123/blogimage@main/202312091131024.png)
+
+There are still vulnerabilities in version < 1.2.3. 
+The previously submitted issue has been closed by the author.
+![](https://cdn.jsdelivr.net/gh/g1an123/blogimage@main/202312131749695.png)
+![](https://cdn.jsdelivr.net/gh/g1an123/blogimage@main/202312131749868.png)
